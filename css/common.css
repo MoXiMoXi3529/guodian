@@ -1,0 +1,218 @@
+..container{
+  width: 80% !important;
+  margin: 0 auto;
+}
+/*header*/
+.header-top{
+  background-color: #fff;
+  border-bottom: 1px solid #cccccc;
+}
+.header-top .container{
+  padding-left: 0;
+}
+.header-top .container:nth-child(1){
+  padding: 30px 0;
+}
+.header-top .top-header-main{
+  display: flex;
+}
+.header-top .top-header-main .top-header-left{
+  flex: 1;
+  line-height: 70px;
+}
+.header-top .container a{
+  color: #000;
+  display: inline-block;
+  font-family: '思源黑体';
+}
+.header-top .container .login{
+  padding-left: 40px;
+  background: url(../image/icon/personal.jpg) no-repeat left center;
+  background-size: 3rem;
+}
+.header-top .container .logo{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.header-top .container .logo img{
+  width: 28%;
+}
+.top-header-main div:nth-child(3){
+  text-align: right;
+}
+.top-header-main .collection,
+.top-header-main .advisory{
+  width: 40px;
+  height: 100%;
+  display: inline-block;
+  background: url(../image/icon/collection.jpg) no-repeat left 13px;
+  background-size: 3rem;
+  padding-left: 60px;
+}
+.top-header-main .advisory{
+  background: url(../image/icon/kf.jpg) no-repeat left 13px;
+  background-size: 3rem;
+  margin-left: 1rem;
+}
+.header-bottom {
+  display: flex;
+}
+.header-bottom .search{
+  flex: 1;
+  text-align: right;
+  display: inline-block;
+  width: 35px;
+  height: 35;
+  background: url(../image/icon/search.jpg) no-repeat right center;
+  background-size: 3rem;
+}
+/*footer*/
+.footer-grids{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 20px;
+}
+.footer-grids .about-us:nth-child(1){
+  width: 20%;
+}
+.footer-grids .about-us:nth-child(2),
+.footer-grids .about-us:nth-child(3),
+.footer-grids .about-us:nth-child(4){
+  flex: 1;
+}
+.footer-grids .about-us:nth-child(5){
+  width: 10%;
+}
+.footer-grids .about-us li{
+  list-style: none;
+  color: #666;
+}
+.footer-grids .about-us li a{
+  color: #666;
+  font-size: 12px;
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom p{
+  color: #333333;
+  font-size: 14px;
+  font-family: '思源黑体';
+  line-height: 85px;
+}
+/*content*/
+.main_content{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+/*banner*/
+.slider #slider1{
+  height: 320px;
+  overflow: hidden;
+}
+.slider .callbacks_container img{
+  margin-top: -15px;
+}
+/*content*/
+.main_content {
+  color: #000;
+}
+.main_content .title{
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+.main_content .title p:nth-child(2){
+  font-size: 20px;
+  margin-top: 11px;
+}
+#slider2 li {
+  display: flex;
+  padding-bottom: 5px;
+}
+#slider2 li .items{
+  display: inline-block;
+  width: 33.333%;
+  height: 100%;
+  box-shadow: 0 4px 8px #ccc;
+  margin: 0 5px;
+}
+#slider2 li .items .price{
+  text-align: center;
+}
+.main_content .slider.goods{
+  padding: 0 55px;
+  box-sizing: border-box;
+}
+.goods .callbacks_nav{
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 4px 8px #ccc;
+  opacity: 1;
+  background: url(../image/icon/left.jpg) no-repeat center center;
+  background-color: #fff;
+  left: -80px;
+}
+.goods .callbacks_nav.next{
+  background: url(../image/icon/right.jpg) no-repeat center center;
+  background-color: #fff;
+  right: -80px;
+  left: auto;
+}
+.main_content .offers{
+  background-color: #f6f6f8;
+  display: flex;
+}
+.main_content .offers .offers-left,
+.main_content .offers .offers-right{
+  flex: 1;
+  text-align: center;
+}
+.main_content .offers .offers-left{
+  margin-right: 7px;
+}
+.main_content .offers .offers-right{
+  margin-left: 7px;
+}
+.main_content .offers img{
+  width: 100%;
+}
+.main_content .offers .goods{
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 5px #ccc;
+}
+.main_content .offers .goods .details{
+  padding: 38px 0;
+  color: #999999;
+}
+.main_content .goods .details p:nth-child(1){
+  color: #000;
+  margin-bottom: 13px;
+}
+.main_content .offers-left .goods3,
+.main_content .offers-right .goods2{
+  display: flex;
+}
+.main_content .offers-left .goods3 .details,
+.main_content .offers-left .goods3 img,
+.main_content .offers-right .goods2 .details,
+.main_content .offers-right .goods2 img{
+  width: 50%;
+}
+.main_content .offers-left .goods3 .details,
+.main_content .offers-right .goods2 .details{
+  padding-top: 48px;
+}
+.main_content .offers-left .goods3 img,
+.main_content .offers-right .goods2 img{
+  height: 50%;
+}
+
+
+
+
