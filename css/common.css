@@ -6,6 +6,11 @@
 .header-top{
   background-color: #fff;
   border-bottom: 1px solid #cccccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
 }
 .header-top .container{
   padding-left: 0;
@@ -108,6 +113,7 @@
   width: 80%;
   margin: 0 auto;
   background-color: #fff;
+  margin-top: 193px;
 }
 /*banner*/
 .slider #slider1{
@@ -212,7 +218,47 @@
 .main_content .offers-right .goods2 img{
   height: 50%;
 }
-
-
-
+/*登录*/
+.log_box{
+  
+}
+.log_box .third_party{
+  font-family: '思源黑体';
+  font-size: 22px;
+}
+.third_party .third_content {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  padding: 0 25px;
+}
+.third_party .third_content .third{
+  display: inline-block;
+  flex: 1;
+  background: url(../image/icon/qq.jpg) no-repeat;
+  width: 62px;
+  height: 62px;
+  background-size: 100%;
+  margin: 0 15px;
+}
+.third_party .third_content .wechat{
+  background: url(../image/icon/wechat.jpg) no-repeat;
+  background-size: 100%;
+}
+.third_party .third_content .sina{
+  background: url(../image/icon/sina.jpg) no-repeat;
+  background-size: 100%;
+}
+@media (min-width: 768px){
+  /*.log_box {
+      width: 400px;
+      margin-right: 0;
+  }*/
+}
+@media (min-width: 720px){
+  /*.log_box {
+    width: 400px;
+    margin-right: 0;
+  }*/
+}
 

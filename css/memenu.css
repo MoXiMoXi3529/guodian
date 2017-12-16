@@ -1,5 +1,4 @@
 .memenu {
-  padding: 20px 0;
   width: 70%;
   list-style: none;
   display: inline-block;
@@ -7,18 +6,28 @@
   font-family: Calibri,Arial;
   font-size: 15px;
   display: flex;
+  margin-left: -30px;
 }
 
 .memenu li {
-  text-align: left;
-  flex: 1;
+  text-align: center;
+  height: 100%;
 }
 
+.memenu li:nth-child(1){
+  width: 15%;
+}
+.memenu li:nth-child(n+2){
+  flex: 1;
+}
 ul.memenu.skyblue {
   text-align: center;
+  height: 100%;
 }
 
 .memenu>li>a {
+  display: inline-block;
+  height: 100%;
   font-family: 'Dosis-Regular';
   float: left;
   color: #caccce;
@@ -59,11 +68,6 @@ ul.memenu.skyblue {
 .me-one ul li a {
   color: #B6B6B6;
   font-size: 14px;
-}
-
-.me-one ul li a:hover {
-  text-decoration: none;
-  color: #ff5d56;
 }
 
 .me-one h4 {
@@ -198,12 +202,24 @@ ul.memenu.skyblue {
   z-index: 1
 }
 
+.skyblue li{
+
+}
+
+.skyblue li>a{
+  display: inline-block;
+  height: 100%;
+  padding: 20px 10px;
+  margin: 0 10px;
+}
+
 .skyblue li>a,.skyblue>li.showhide span {
-  color: #000
+  color: #000;
 }
 
 .skyblue>li:hover>a,.skyblue>li.active>a,.skyblue .dropdown li:hover>a {
-  color: #00a0dc
+  color: #902729;
+  border-bottom: 4px solid #902729;
 }
 
 .
@@ -216,9 +232,7 @@ skyblue .mepanel img:hover,.skyblue form.contact input[type="text"]:focus,.skybl
 }
 
 @media (max-width: 991px) {
-  .memenu>li>a {
-    /*padding: 38px 26px;*/
-  }
+
 }
 
 @media (max-width: 800px) {
