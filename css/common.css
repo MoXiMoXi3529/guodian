@@ -350,6 +350,89 @@
 .img_box .imgBox_bottom.right .content p{
   line-height: 26px;
 }
+/*联系我们*/
+.main_artical{
+  margin-top: 193px;
+  font-family: '思源黑体';
+}
+.main_artical .contact > .title{
+  text-align: center;
+  padding: 50px 0;
+}
+.main_artical .contact .title h3{
+  font-size: 30px;
+}
+.main_artical .contact .contact_us{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.main_artical .contact .contact_us > div{
+  flex: 1;
+  text-align: center;
+  padding: 125px 25px 50px; 
+  margin: 0 15px;
+  background: url(../image/icon/kf.jpg) no-repeat center 30%;
+  background-size: 5rem;
+  background-color: #fff;
+}
+.main_artical .contact .contact_us > div:nth-child(1){
+  margin-left: 0;
+}
+.main_artical .contact .contact_us > div:last-child{
+  margin-right: 0;
+}
+.main_artical .contact .contact_us > div .title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.main_artical .contact .contact_us > div .details{
+  line-height: 20px;
+}
+.main_artical form{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 60px 158px 60px;
+  margin-bottom: 100px;
+} 
+.main_artical form .top{
+  margin-bottom: 30px;
+}
+.main_artical form .top input{
+  border: none;
+  width: 45%;
+  border: none;
+  background-color: #edf1f4;
+  border-radius: 19px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 16px;
+  /*font-size: 16px;*/
+}
+.main_artical form .top .email{
+  float: right;
+}
+.main_artical form textarea{
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #edf1f4;
+  width: 100%;
+}
+.main_artical form input[type="submit"]{
+  outline:none;
+  border:1px solid #fff;
+  color:#fff;
+  background-color: #902729;
+  border-radius: 18px;
+  height: 40px;
+  width: 40%;
+  display: inline-block;
+  margin: 74px 0 50px 50%;
+  font-size: 16px;
+  transform: translateX(-50%);
+}
 @media (min-width: 768px){
   /*.log_box {
       width: 400px;
