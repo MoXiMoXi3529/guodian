@@ -56,6 +56,70 @@
         <li><a href="javascript:;">全部</a></li>
         <li class="active">腕表</li>
       </ol>
+      <div class="condition">
+        <p class="more">更多选项</p>
+        <p class="title">共<span class="color1">3782</span>款表供您浏览</p>
+        <div class="all-title">
+          <div class="clas brands">
+            <div class="col-md-1"><span>品牌</span></div>
+            <div class="col-md-11">
+              <div class="classify">
+                <div class="limit"><i>不限</i><span>顶级：</span></div>
+                <ul>
+                  <li>百达翡丽</li>
+                  <li>狼哥</li>
+                  <li>江诗丹顿</li>
+                  <li>宝玑</li>
+                  <li>积家</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clas price">
+            <div class="col-md-1"><span>价格</span></div>
+            <div class="col-md-11">
+              <div class="classify">
+                <div class="limit"><i>不限</i></div>
+                <ul>
+                  <li>5000以下</li>
+                  <li>5000-10,000</li>
+                  <li>10,000-20,000</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clas movement">
+            <div class="col-md-1"><span>机芯类型</span></div>
+            <div class="col-md-11">
+              <div class="classify">
+                <div class="limit"><i>不限</i></div>
+                <ul>
+                  <li>石英</li>
+                  <li>自动机械</li>
+                  <li>手动机械</li>
+                  <li>机械光动能</li>
+                  <li>电子</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clas people">
+            <div class="col-md-1"><span>价格</span></div>
+            <div class="col-md-11">
+              <div class="classify">
+                <div class="limit"><i>不限</i><span>顶级：</span></div>
+                <ul>
+                  <li>男式</li>
+                  <li>女士</li>
+                  <li>中心款式</li>
+                  <li>其他</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
       <div class="list-items">
         <div class="item-title">
           <ul>
@@ -111,18 +175,31 @@
           <ul class="pagination">
             <li>
               <a href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
+                <span aria-hidden="true">上一页</span>
               </a>
             </li>
-            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
             <li><a href="#">4</a></li>
             <li><a href="#">5</a></li>
             <li>
               <a href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
+                <span aria-hidden="true">下一页</span>
               </a>
+            </li>
+            <li class="total">
+              <a href="javascript:;">
+                共 <span>18</span> 页,
+              </a>
+            </li>
+            <li class="jump">
+              <a href="javascript:;">
+                到第<input type="text" value="1">
+              </a>
+            </li>
+            <li>
+              <input type="button" value="确定">
             </li>
           </ul>
         </nav>

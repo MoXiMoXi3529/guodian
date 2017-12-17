@@ -1,6 +1,5 @@
-..container{
-  width: 80% !important;
-  margin: 0 auto;
+.color1{
+  color: #902729;
 }
 /*header*/
 .header-top{
@@ -71,6 +70,42 @@
   height: 35;
   background: url(../image/icon/search.jpg) no-repeat right center;
   background-size: 3rem;
+}
+/*分页*/
+.pagination>li>a, .pagination>li>a{
+  margin: 0 5px;
+  color: #000;
+  padding: 2px 8px;
+  border: 1px solid #e4e4e4;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+  border-radius: 0;
+}
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover{
+  background-color: #fff;
+  color: #902729;
+  border: none;
+}
+.pagination>li.total>a,
+.pagination>li.jump>a{
+  border: none;
+}
+.pagination>li.jump>a input{
+  border: 1px solid #e4e4e4;
+  padding: 2px 8px;
+  margin-left: 10px;
+  width: 30px;
+}
+.pagination>li input{
+  border: 1px solid #e4e4e4;
+  background-color: #fff;
+  color: #000;
+  margin-left: 30px;
 }
 /*footer*/
 .footer-grids{
@@ -452,7 +487,7 @@
 .list-items {
   background-color: #e4e4e4;
   margin-bottom: 20px;
-  box-shadow: 0 0 3px 5px #ccc;
+  box-shadow: 0 5px 5px #ccc;
 }
 .list-items .item-title{
   display: flex;
@@ -549,6 +584,68 @@
 }
 .list-items nav .pagination{
   margin: 0 0 55px;
+}
+.listsPage .condition{
+  box-shadow: 0 5px 5px #ccc;
+  position: relative;
+}
+.listsPage .condition .more{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  bottom: -36px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url(../image/icon/more.png) no-repeat 90% 50%;
+  background-color: #fff;
+  box-shadow: 0 5px 5px #ccc;
+  padding: 0 45px 0 20px;
+  cursor: pointer;
+}
+.listsPage .condition .title{
+  height: 46px;
+  line-height: 46px;
+  background-color: #e4e4e4;
+  padding-left: 30px;
+  color: #000;
+}
+.listsPage .condition .all-title{
+  padding: 24px 0;
+  background-color: #fff;
+  margin-bottom: 60px;
+  font-family: '思源黑体';
+  /*color: #000;*/
+}
+.listsPage .condition .all-title .limit i{
+  display: inline-block;
+  padding: 0 4px;
+  background-color: #902729;
+  color: #fff;
+  font-style: normal;
+}
+.listsPage .condition .all-title .classify{
+  display: flex;
+  margin-bottom: 15px;
+}
+.listsPage .condition .all-title .limit {
+  width: 14%;
+}
+.listsPage .condition .all-title .classify span{
+  color: #979c9f;
+  margin-left: 5px;
+}
+.listsPage .condition .all-title ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.listsPage .condition .all-title ul li{
+  width: 10%;
+  line-height: 24px;
+}
+.listsPage .condition .all-title .price li{
+  width: 15%;
 }
 /*列表页*/
 .listsPage 
