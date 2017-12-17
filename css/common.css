@@ -1,3 +1,6 @@
+.color{
+  color: #e93a38;
+}
 .color1{
   color: #902729;
 }
@@ -151,7 +154,7 @@
   width: 80%;
   margin: 0 auto;
   background-color: #fff;
-  margin-top: 183px;
+  margin-top: 177px;
 }
 /*banner*/
 .main_content #slider1{
@@ -289,7 +292,7 @@
 }
 /*活动页*/
 .product-model{
-  margin-top: 183px;
+  margin-top: 177px;
   background-color: #f7f7f9;
 }
 .product_content.lists{
@@ -387,7 +390,7 @@
 }
 /*联系我们*/
 .main_artical{
-  margin-top: 183px;
+  margin-top: 177px;
   font-family: '思源黑体';
 }
 .main_artical .contact > .title{
@@ -646,6 +649,70 @@
 }
 .listsPage .condition .all-title .price li{
   width: 15%;
+}
+/*收藏*/
+.collecPage {
+  background-color: #f6f6f8;
+  font-family: '思源黑体';
+}
+.collecPage .choose{
+  margin: 15px 30px;
+  padding-top: 15px;
+  font-size: 16px;
+}
+.collecPage .choose span{
+  margin-left: 24px;
+}
+.collecPage .choose .cancle{
+  position: relative;
+}
+.collecPage .choose .cancle::before{
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 20px;
+  background-color: #919192;
+  position: absolute;
+  left: -12px;
+  top: 0;
+}
+.collecPage .choose .filter{
+  background: url(../image/icon/more1.png) no-repeat left center;
+  padding-left: 22px;
+}
+.collecPage .lists input[type=checkbox]{
+  margin-bottom: 12px;
+}
+.collecPage .lists ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.collecPage .lists ul li{
+  flex: 1;
+  background-color: #fff;
+  padding: 10px 30px 90px;
+  /*box-shadow: 0 5px 5px #ccc;*/
+  margin-bottom: 30px;
+}
+.collecPage .lists ul li:nth-child(2n){
+  margin-left: 15px;
+}
+.collecPage .lists ul li:nth-child(2n+1){
+  margin-right: 15px;
+}
+.collecPage .lists .lock-title{
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+.collecPage .lists .lock .color{
+  margin-left: 40px;
+}
+.collecPage .lists .lock .price{
+  font-size: 20px;
+}
+.collecPage .lists .lock img{
+  padding: 90px 20% 0;
 }
 /*列表页*/
 .listsPage {
