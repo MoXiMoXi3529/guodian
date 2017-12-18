@@ -485,7 +485,6 @@
 }
 .breadcrumb{
   padding: 0;
-  margin-bottom: 1rem !important;
 }
 .list-items {
   background-color: #e4e4e4;
@@ -713,6 +712,117 @@
 }
 .collecPage .lists .lock img{
   padding: 90px 20% 0;
+}
+/*详情页*/
+.detailsPage {
+  margin-top: 177px;
+}
+.product-price1{
+  background-color: #fff;
+  padding: 40px 45px;
+  font-family: '思源黑体';
+  box-shadow: 0 5px 5px #ccc;
+  margin-bottom: 30px;
+}
+.product-price1 h5{
+  font-weight: normal;
+}
+.single-para h4{
+  line-height: 30px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  margin-bottom: 22px;
+}
+.single-para h5 .color{
+  margin-left: 50px;
+}
+.single-para h5 .price{
+  font-size: 20px;
+}
+.single-para h5 {
+  margin-bottom: 25px;
+}
+.single-para .details li{
+  padding-left: 86px;
+  background: url(../image/icon/zhengpin.png) no-repeat left center;
+  margin-bottom: 36px;
+  background-size: 50px;
+  color: #666666;
+}
+.single-para .details li .title{
+  color: #000;
+}
+.single-para .details li p{
+  line-height: 24px;
+}
+.prdt-info-grid span{
+  display: inline-block;
+  padding: 0 15px 0 32px;
+  line-height: 32px;
+  background: url(../image/icon/zheng.png) no-repeat 5px center;
+  /*background-size: 2rem;*/
+}
+.prdt-info-grid span:nth-child(2){
+  background: url(../image/icon/tuihuo.png) no-repeat 5px center;
+}
+.prdt-info-grid span:nth-child(3){
+  background: url(../image/icon/zhijian.png) no-repeat 5px center;
+}
+.prdt-info-grid span:nth-child(4){
+  background: url(../image/icon/share.png) no-repeat 5px center;
+}
+.prdt-info-grid span:nth-child(5){
+  background: url(../image/icon/shoucang.png) no-repeat 5px center;
+}
+.product-detail {
+  font-family: '思源黑体';
+  color: #000;
+  padding-bottom: 107px;
+}
+.product-detail .top-sing .title{
+  margin-bottom: 15px;
+  display: flex;
+}
+.product-detail .top-sing .title .left{
+  width: 5rem;
+}
+.product-detail .top-sing .title .right{
+  display: inline-block;
+  flex: 1;
+  position: relative;
+  margin-left: 5px;
+  color: #666;
+}
+.product-detail .top-sing .title .right::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.product-detail .top-sing ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-detail .top-sing ul li{
+  width: 25%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 39px;
+  background-color: #f6f6f6;
+  margin-bottom: 6px;
+  border-right: 6px solid #fff;
+}
+.product-detail .top-sing ul li:nth-child(4n){
+  border: none;
+}
+.product-detail .description {
+  margin-bottom: 55px;
+}
+.product-detail .details .img-box{
+  padding: 0 25%;
 }
 /*列表页*/
 .listsPage {
