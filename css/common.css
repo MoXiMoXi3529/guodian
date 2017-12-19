@@ -37,6 +37,48 @@
   background: url(../image/icon/personal.jpg) no-repeat left center;
   background-size: 3rem;
 }
+.top-header-left{
+  position: relative;
+}
+.popover.bottom{
+  position: absolute;
+  left: -10%;
+  top: 80%;
+  padding: 30px 20px 0;
+  width: 24rem;
+}
+.popover.bottom .avatar{
+  padding: 0 0 22px;
+  text-align: center;
+}
+.popover.bottom .img-box{
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 13px;
+}
+.popover.bottom>.arrow{
+  left: 18%;
+}
+.popover.bottom ul li{
+  height: 45px;
+  line-height: 45px;
+  padding-left: 30px;
+  background: url(../image/icon/collection.jpg) no-repeat left center;
+  background-size: 2rem;
+  border-bottom: 1px solid #e4e4e4;
+}
+.popover.bottom ul .settings{
+  background: url(../image/icon/settings.png) no-repeat -6px center;
+  background-size: 3rem;
+}
+.popover.bottom ul .name{
+  background: url(../image/icon/personal.jpg) no-repeat left center;
+  background-size: 2rem;
+  border-bottom: none;
+}
 .header-top .container .logo{
   display: inline-block;
   width: 100%;
@@ -437,7 +479,7 @@
   width: 80%;
   margin: 0 auto;
   background-color: #fff;
-  padding: 60px 158px 60px;
+  padding: 60px 30%;
   margin-bottom: 100px;
 } 
 .main_artical form .top{
@@ -827,6 +869,106 @@
 /*列表页*/
 .listsPage {
   margin-top: 152px;
+}
+/*注册*/
+.log .log-bottom {
+  text-align: left;
+}
+.log .log-bottom a{
+  float: none;
+  font-size: 12px;
+}
+.log .log-bottom a.color{
+  color: #cc5252;
+}
+/*忘记密码*/
+.setpasd {
+  background-color: #fff;
+  padding: 80px;
+  margin: 100px 10% 120px;
+  font-family: '思源黑体';
+  color: #000;
+}
+.setpasd .title{
+  font-size: 20px;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 20px;
+}
+.setpasd form {
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.setpasd form .content {
+  width: 100%;
+}
+.setpasd form input[type='text']{
+  height: 42px;
+  border: none;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.setpasd form .btn{
+  width: 100%;
+  background-color: #cc5252;
+  border: none;
+  color: #fff;
+  height: 42px;
+  border-radius: 5px;
+}
+.popover.left{
+  display: block;
+  background-color: #cc5252;
+  color: #fff;
+  box-shadow: 0 0;
+  width: 150px;
+}
+.popover.left>.arrow:after{
+  border-left-color: #cc5252;
+  box-shadow: 0 0;
+}
+.popover-content{
+  margin: 0;
+}
+.modal-content{
+  padding-bottom: 15px;
+}
+.modal.in .modal-dialog{
+  width: 30%;
+  top: 32%;
+  font-family: '思源黑体';
+  color: #000;
+}
+.modal-header{
+  padding: 15px 15px 30px;
+}
+.modal-footer{
+  border: none;
+  text-align: center;
+}
+.modal-footer .btn{
+  color: #a3a3a3;
+  padding: 8px 25px;
+  border-radius: 30px;
+  border: 1px solid #a3a3a3;
+  outline:none;
+} 
+.modal-footer .btn+.btn{
+  background-color: #cc5252;
+  color: #fff;
+  border: none;
+  margin-left: 30px;
+}
+input:focus,
+input:active:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  border-color: transparent;
 }
 @media (min-width: 768px){
   /*.log_box {

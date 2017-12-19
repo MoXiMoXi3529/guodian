@@ -14,6 +14,10 @@
   height: 100%;
 }
 
+.memenu > li:nth-child(1){
+  width: 16%;
+}
+
 .memenu > li:nth-child(n+2){
   flex: 1;
 }
