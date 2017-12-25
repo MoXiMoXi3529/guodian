@@ -5,22 +5,15 @@
   position: relative;
   font-family: Calibri,Arial;
   font-size: 15px;
-  display: flex;
   margin-left: -30px;
 }
 
 .memenu li {
   text-align: center;
   height: 100%;
+  float: left;
 }
 
-.memenu > li:nth-child(1){
-  width: 16%;
-}
-
-.memenu > li:nth-child(n+2){
-  flex: 1;
-}
 ul.memenu.skyblue {
   text-align: center;
   height: 100%;
@@ -221,7 +214,7 @@ ul.memenu.skyblue {
   display: inline-block;
   height: 100%;
   padding: 20px 10px;
-  margin: 0 10px;
+  margin: 0 2rem;
 }
 
 .skyblue li>a,.skyblue>li.showhide span {
