@@ -505,7 +505,7 @@ span.disc {
 .footer{
 	background:#fff;
 	padding: 55px 0 24px;
-	border-top:1px solid #c0c0c0;
+  box-shadow: 0 -3px 5px #ccc;
 }
 .about-us h3{
 	color: #555;
