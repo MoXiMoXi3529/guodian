@@ -2406,12 +2406,12 @@ input.item_add.items {
     min-height: 195px;
 }
 .callbacks_nav {
-    top: 40%;
-    left: 0px;
-    height: 72px;
-    width: 22px;
-    background: transparent url("../images/sp.png") no-repeat -13px -6px;
-    background-size: 84px;
+  top: 40%;
+  left: 0px;
+  height: 72px;
+  width: 22px;
+  background: transparent url("../images/sp.png") no-repeat -13px -6px;
+  background-size: 84px;
 }
 .callbacks_nav.next {
     background: transparent url("../images/sp.png") no-repeat -44px -4px;

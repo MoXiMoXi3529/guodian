@@ -815,7 +815,7 @@ a{
   margin-top: 177px;
 }
 .product-price1{
-  background-color: #fff;
+  background-color: #fff !important;
   padding: 40px 45px;
   font-family: '思源黑体';
   box-shadow: 0 5px 5px #ccc;
@@ -870,6 +870,7 @@ a{
 }
 .prdt-info-grid span:nth-child(5){
   background: url(../image/icon/shoucang.png) no-repeat 5px center;
+  background-size: 2rem;
 }
 .product-detail {
   font-family: '思源黑体';
@@ -1081,6 +1082,7 @@ input:active:focus,
   }
   .header-top{
     height: 60px;
+    box-shadow: 0 2px 5px #ccc;
   }
   .header-bottom .logo{
     display: inline-block !important;
@@ -1399,5 +1401,90 @@ input:active:focus,
     margin: 25px 0 auto 50%;
     height: 25px;
     font-size: 13px;
+  }
+  /*details*/
+  .detailsPage {
+    margin-top: 60px;
+  }
+  .detailsPage .breadcrumb{
+    display: none;
+    box-shadow: 0 -3px 5px #ccc;
+  }
+  .product-price1{
+    padding: 40px 28px;
+    box-shadow: 0 0;
+    margin-bottom: 10px;
+  }
+  .product-img .top-sing .details,
+  .product-img .top-sing .prdt-info-grid{
+    display: none;
+  }
+  .product-img{
+    position: relative;
+    padding-bottom: 0;
+  }
+  .product-img::before,
+  .product-img::after{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../image/icon/shoucang.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+  }
+  .product-img::after{
+    background: url(../image/icon/share.png) no-repeat;
+    background-size: 88%;
+    top: 62px;
+  }
+}
+@media (max-width: 420px){
+  /*详情页*/
+  .detailsPage .container{
+    padding: 0;
+    margin: 0;
+  }
+  .single-top {
+    width: 90%;
+  }
+  .single-para h4{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .single-top-in{
+    margin-top: 20px;
+  }
+  .single-para h4{
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+  }
+  .single-para h5{
+    padding-top: 0;
+  }
+  .single-para h5>span:nth-child(1){
+    display: none;
+  }
+  .single-para h5 .color{
+    font-size: 14px;
+    margin-left: 0;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  .product-detail .top-sing ul li{
+    width: 50%;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 13px;
+  }
+  .product-detail .description{
+    margin-bottom: 10px;
   }
 }
