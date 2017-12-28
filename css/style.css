@@ -724,9 +724,12 @@ background-position:-167px -36px;
 .products-row a:hover{
 	text-decoration:none;
 }
-.product-img img {
+.product-img .flexslider>img {
 	width: 100%;
-	padding:1em 2.5em 0; 
+	padding: 2em 0; 
+}
+.product-img .flexslider img{
+  cursor: pointer;
 }
 .product-info-cust {
 	padding: 0.8em 1.2em;

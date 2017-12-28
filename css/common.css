@@ -922,6 +922,38 @@ a{
 .product-detail .details .img-box{
   padding: 0 25%;
 }
+.flexslider{
+  position: relative;
+}
+.flexslider ul{
+  width: 100%;
+  border: 1px solid #000;
+  display: flex;
+}
+.flexslider ul li{
+  flex: 1;
+}
+.prdt-info-grid{
+  display: none;
+}
+.flexslider .mask{
+  width: 175px;
+  height: 175px;
+  background: rgba(255, 255, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: move;
+  display: none;
+}
+.simpleCart_shelfItem{
+  position: relative;
+}
+.hover-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 /*列表页*/
 .listsPage {
   /*margin-top: 152px;*/
