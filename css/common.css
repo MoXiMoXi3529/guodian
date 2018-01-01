@@ -936,30 +936,8 @@ a{
 .prdt-info-grid{
   display: none;
 }
-.flexslider .mask{
-  width: 175px;
-  height: 175px;
-  background: rgba(255, 255, 0, 0.4);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  cursor: move;
-  display: none;
-}
 .simpleCart_shelfItem{
   position: relative;
-}
-.flexslider .img-box{
-  border: 1px solid #000;
-}
-.hover-img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-  display: none;
 }
 /*列表页*/
 .listsPage {
