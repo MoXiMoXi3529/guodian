@@ -14,17 +14,9 @@
   $(document).on('click', '.collecPage .lists li .delete', function () {
     $(this).parent().parent().remove();
   })
-  // $(document).on('click', '.logo :before', function () {
-  //   console.log(111)
-  // })
-  var bigImg = document.querySelector('.big-img')
-  var ul = document.querySelector('.small-img')
-  var images = ul.querySelectorAll('img')
-  for (var i = 0; i < images.length; i++) {
-    images[i].onclick = function () {
-      bigImg.src = 'image/0' + this.alt + 'big.jpg'
-    }
-  }
+  $(document).on('click', '.detailsPage #slider2 .items', function () {
+    $('.flexslider>img').attr('src', $(this).attr('data-img'))
+  })
 })();
 
 if(!(navigator.userAgent.match(/(iPhone|iPod|Android|ios|Windows Phone)/i))){

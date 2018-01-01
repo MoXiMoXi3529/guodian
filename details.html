@@ -109,12 +109,23 @@
 					<div class="col-md-7 single-top">	
 						<div class="flexslider">
               <img src="image/01big.jpg" alt="" xq_big="true" setting='{"pwidth":400,"pheight":400,"margin_top":0,"margin_left":50}' class="big-img">
-              <ul class="small-img">
-                <li><img src="image/01.jpg" alt="1"></li>
-                <li><img src="image/02.jpg" alt="2"></li>
-                <li><img src="image/03.jpg" alt="3"></li>
-                <li><img src="image/04.jpg" alt="4"></li>
-              </ul>
+              <div class="slider goods">
+                <div class="callbacks_container">
+                  <ul class="rslides small-img" id="slider2">
+                    <li>
+                      <div class="items" data-img='image/01big.jpg'><img src="image/01.jpg" alt="1"></div>
+                      <div class="items" data-img='image/02big.jpg'><img src="image/02.jpg" alt="2"></div>
+                      <div class="items" data-img='image/03big.jpg'><img src="image/03.jpg" alt="3"></div>
+                      <div class="items" data-img='image/04big.jpg'><img src="image/04.jpg" alt="3"></div>
+                    </li>
+                    <li>
+                      <div class="items" data-img='image/01big.jpg'><img src="image/01.jpg" alt="1"></div>
+                      <!-- <div class="items"><img src="image/02.jpg" alt="2"></div> -->
+                      <!-- <div class="items"><img src="image/03.jpg" alt="3"></div> -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
 						</div>			 					 
 					</div>	
 				  <div class="col-md-5 single-top-in simpleCart_shelfItem">
@@ -249,4 +260,15 @@
 <script src="js/simpleCart.min.js"> </script>
 <script type="text/javascript" src="js/memenu.js"></script>
 <script>$(document).ready(function(){$(".memenu").memenu();});</script> 
+<script>
+  $(function () {
+    $(".rslides").responsiveSlides({
+      // auto: true,
+      nav: true,
+      speed: 500,
+      namespace: "callbacks",
+      pager: false,
+    });
+  });
+</script>
 </html>
