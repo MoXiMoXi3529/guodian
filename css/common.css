@@ -922,7 +922,7 @@ a{
 .product-detail .details .img-box{
   padding: 0 25%;
 }
-.flexslider{
+.flexslider .img-box{
   position: relative;
 }
 .flexslider ul{
@@ -949,10 +949,17 @@ a{
 .simpleCart_shelfItem{
   position: relative;
 }
+.flexslider .img-box{
+  border: 1px solid #000;
+}
 .hover-img{
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  display: none;
 }
 /*列表页*/
 .listsPage {
