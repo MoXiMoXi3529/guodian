@@ -34,7 +34,24 @@
 	 	<div class="header-bottom container">			
 			<div class="top-nav">
 				<ul class="memenu skyblue showhide">
-					<li class="active"><a href="javascript:;">首页</a></li>
+					<li class="active"><a href="javascript:;">首页</a>
+					<div class="mepanel">
+							<div class="row">
+								<div class="col1 me-one">
+									<h4>分类</h4>
+									<ul>
+										<li><a href="javascript:;">男士包袋</a></li>
+										<li><a href="javascript:;">女士包袋</a></li>
+										<li><a href="javascript:;">钱包</a></li>
+										<li><a href="javascript:;">手拿包</a></li>
+										<li><a href="javascript:;">斜挎包</a></li>
+										<li><a href="javascript:;">拉杆箱</a></li>
+										<li><a href="javascript:;">双肩包</a></li>
+										<li><a href="javascript:;">手提包</a></li>
+									</ul>
+								</div>
+							</div>
+						</div></li>
 					<li><a href="javascript:;">珠宝</a></li>
 					<li><a href="javascript:;">腕表</a></li>
 					<li>
@@ -129,9 +146,9 @@
 		      	<div class="items"><img src="image/list/pic2.jpg" alt=""><p class="price">￥248000</p></div>
 		      </li>
 		      <li>
-		      	<div class="items"><img src="image/list/pic2.jpg" alt=""><p class="price">￥248000</p></div>
-		      	<div class="items"><img src="image/list/pic2.jpg" alt=""><p class="price">￥248000</p></div>
-		      	<div class="items"><img src="image/list/pic2.jpg" alt=""><p class="price">￥248000</p></div>
+		      	<div class="items"><img src="image/list/pic3.jpg" alt=""><p class="price">￥248000</p></div>
+		      	<div class="items"><img src="image/list/pic3.jpg" alt=""><p class="price">￥248000</p></div>
+		      	<div class="items"><img src="image/list/pic3.jpg" alt=""><p class="price">￥248000</p></div>
 		      </li>
 		    </ul>
 		  </div>
@@ -252,18 +269,26 @@
 <script src="js/bootstrap.js"> </script>
 <script src="js/responsiveslides.min.js"></script>
 <script src="js/simpleCart.min.js"> </script>
-<script type="text/javascript" src="js/memenu.js"></script>
+<!-- <script type="text/javascript" src="js/memenu.js"></script> -->
 <script src="js/mine.js"> </script>
 <script>
   $(function () {
-    $(".rslides").responsiveSlides({
+  	$("#slider1").responsiveSlides({
     	auto: true,
     	nav: true,
     	speed: 500,
       namespace: "callbacks",
       pager: false,
     });
+    $("#slider2").responsiveSlides({
+    	auto: false,
+    	nav: true,
+    	speed: 500,
+      namespace: "callbacks",
+      pager: false,
+    });
   });
-  $(document).ready(function(){$(".memenu").memenu();});
+  // $(document).ready(function(){$(".memenu").memenu();});
+ 
 </script>	
 </html>

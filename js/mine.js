@@ -2,6 +2,11 @@
   $(document).on('click', '.memenu>li', function () {
     $(this).addClass('active').siblings().removeClass('active')
   })
+  $('.memenu>li').hover(function () {
+    $(this).children('.mepanel').show()
+  }, function () {
+    $(this).siblings().children('.mepanel').hide()
+  })
   $(document).on('click', '.login', function () {
     $('.popover').toggle()
   })
@@ -14,8 +19,14 @@
   $(document).on('click', '.collecPage .lists li .delete', function () {
     $(this).parent().parent().remove();
   })
-  $(document).on('click', '.detailsPage #slider2 .items', function () {
+  $(document).on('click', '.detailsPage .items', function () {
     $('.flexslider>img').attr('src', $(this).attr('data-img'))
+    $(this).css({
+      borderRight: '1px solid #000',
+      borderLeft: '1px solid #000'
+    }).siblings().css({
+      border: 'none'
+    })
   })
 })();
 
