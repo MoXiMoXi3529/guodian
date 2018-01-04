@@ -208,7 +208,7 @@ a{
 }
 /*banner*/
 .main_content #slider1{
-  /*height: 320px;*/
+  height: 400px;
   /*overflow: hidden;*/
 }
 .slider .callbacks_container img{
@@ -234,7 +234,7 @@ a{
 #slider2 li .items{
   display: inline-block;
   width: 33.333%;
-  height: 100%;
+  height: 370px;
   box-shadow: 0 4px 8px #ccc;
   margin: 0 5px;
 }
@@ -297,17 +297,24 @@ a{
 }
 .main_content .offers-left .goods3 .details,
 .main_content .offers-left .goods3 img,
-.main_content .offers-right .goods5 .details,
-.main_content .offers-right .goods5 img{
+.main_content .offers-right .goods2 .details,
+.main_content .offers-right .goods2 img{
   width: 50%;
 }
 .main_content .offers-left .goods3 .details,
-.main_content .offers-right .goods5 .details{
+.main_content .offers-right .goods2 .details{
   padding-top: 48px;
+  float: left;
+}
+.main_content .offers-right .goods2 .details{
+  padding-top: 36px;
 }
 .main_content .offers-left .goods3 img,
-.main_content .offers-right .goods5 img{
+.main_content .offers-right .goods2 img{
   height: 50%;
+}
+.main_content .offers-right .goods3 img{
+  height: 372px;
 }
 /*登录*/
 .log_box{
