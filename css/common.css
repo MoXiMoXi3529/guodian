@@ -971,8 +971,10 @@ a{
   position: relative;
 }
 /*列表页*/
-.listsPage {
-  /*margin-top: 152px;*/
+.listsPage .container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 /*注册*/
 .log .log-bottom {
