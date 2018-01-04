@@ -3,9 +3,9 @@
     $(this).addClass('active').siblings().removeClass('active')
   })
   $('.memenu>li').hover(function () {
-    $(this).children('.mepanel').show()
+    $(this).children('.mepanel').toggle()
   }, function () {
-    $(this).siblings().children('.mepanel').hide()
+    $(this).children('.mepanel').hide()
   })
   $(document).on('click', '.login', function () {
     $('.popover').toggle()
@@ -25,7 +25,8 @@
       borderRight: '1px solid #000',
       borderLeft: '1px solid #000'
     }).siblings().css({
-      border: 'none'
+      borderRight: '1px solid #fff',
+      borderLeft: '1px solid #fff'
     })
   })
 })();

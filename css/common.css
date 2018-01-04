@@ -817,16 +817,25 @@ a{
 .detailsPage {
   margin-top: 152px;
 }
-.detailsPage .small-img .items {
+.detailsPage  .flexslider ul{
+  width: 100%;
+  max-height: 65px;
+  overflow-x: auto;
+  overflow-y: none;
+}
+.detailsPage  .flexslider ul .items{
+  flex: none;
   padding: 0;
-  width: 25%;
-  margin: 0;  
+  width: 20%;
+  margin: 0; 
+  border: 1px solid #fff;
 }
 .detailsPage .small-img .items:nth-child(1){
-  border-left: none !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #000;
 }
 .detailsPage .small-img .items:last-child{
-  border-right: none !important;
+  border-right: 1px solid #fff !important;
 }
 .detailsPage .small-img .items img{
   margin: 0;
