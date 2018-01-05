@@ -28,6 +28,9 @@
     $('.memenu').toggle()
     $(this).toggleClass('active')
   })
+  $(window).scrollTop(function (offset) {
+    console.log(offset)
+  })
 })();
 
 if(!(navigator.userAgent.match(/(iPhone|iPod|Android|ios|Windows Phone)/i))){

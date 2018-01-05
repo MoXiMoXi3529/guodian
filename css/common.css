@@ -38,6 +38,27 @@ a{
   display: inline-block;
   font-family: '思源黑体';
 }
+.header-top .container a.advisory{
+  position: relative;
+}
+.header-top .container .advisory:hover .number{
+  display: block;
+}
+.header-top .container .advisory .number{
+  border: 1px solid #aaaaaa;
+  display: inline-block;
+  height: 25px;
+  line-height: 14px;
+  padding: 5px 6px;
+  box-shadow: 0 0 5px #ccc; 
+  position: absolute;
+  bottom: -5px;
+  left: -26px;
+  background-color: #efefef;
+  font-size: 12px;
+  transform: scale(0.80);
+  display: none;
+}
 .header-top .container .login{
   padding-left: 40px;
   background: url(../image/icon/personal.jpg) no-repeat left center;
@@ -101,11 +122,12 @@ a{
   width: 40px;
   height: 100%;
   display: inline-block;
-  background: url(../image/icon/collection.jpg) no-repeat left 13px;
+  background: url(../image/icon/collection.jpg) no-repeat center 13px;
   background-size: 3rem;
   padding-left: 60px;
 }
-.top-header-main .advisory{
+.top-header-main .advisory,
+.header-bottom .top-header-left.phone .advisory{
   background: url(../image/icon/kf.jpg) no-repeat left 13px;
   background-size: 3rem;
   margin-left: 1rem;
@@ -121,7 +143,45 @@ a{
   text-align: right;
   display: inline-block;
   height: 35px;
-  background: url(../image/icon/search.jpg) no-repeat right center;
+  margin-top: 10px;
+}
+.header-bottom .search input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 30px;
+  background: url(../image/icon/search.png) no-repeat 95% center;
+  background-size: 30px;
+  background-color: #e6e6e6;
+  padding: 0 15px;
+}
+.header-bottom .top-header-left.log{
+  padding: 0;
+  width: 150px;
+  display: none;
+}
+.header-bottom .top-header-left.log a{
+  width: 100%;
+  margin-top: 14px;
+  padding-left: 0px;
+  height: 30px;
+  line-height: 30px;
+}
+.header-bottom .top-header-left.phone{
+  width: 12.8rem;
+  display: none;
+}
+.header-bottom .top-header-left.phone .collection,
+.header-bottom .top-header-left.phone .advisory{
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background: url(../image/icon/collection.jpg) no-repeat center right;
+  background-size: 3rem;
+  padding-left: 0;
+}
+.header-bottom .top-header-left.phone .advisory{
+  background: url(../image/icon/kf.png) no-repeat center right;
   background-size: 3rem;
 }
 /*分页*/
@@ -167,8 +227,36 @@ a{
   display: flex;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 20px;
+  font-family: '思源黑体';
 }
-.footer-grids .about-us:nth-child(1){
+.footer-grids .col-md-3{
+  padding: 0 30px;
+  text-align: center;
+}
+.footer-grids .col-md-3 .erweima{
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.footer-grids .address p{
+  color: #333333;
+  margin-bottom: 15px;
+}
+.footer-grids .address p.title{
+  font-size: 17px;
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom p{
+  color: #333333;
+  font-size: 14px;
+  font-family: '思源黑体';
+  line-height: 85px;
+}
+.footer-bottom img{
+  width: 7rem;
+}
+/*.footer-grids .about-us:nth-child(1){
   width: 20%;
 }
 .footer-grids .about-us:nth-child(2),
@@ -198,7 +286,7 @@ a{
 }
 .footer-bottom img{
   width: 7rem;
-}
+}*/
 /*content*/
 .main_content{
   width: 80%;
