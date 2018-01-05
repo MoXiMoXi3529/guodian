@@ -22,6 +22,7 @@ a{
 }
 .header-top .container{
   padding-left: 0;
+  width: 1150px;
 }
 .header-top .container:nth-child(1){
   padding: 10px 0 5px;
@@ -168,7 +169,7 @@ a{
   line-height: 30px;
 }
 .header-bottom .top-header-left.phone{
-  width: 12.8rem;
+  width: 150px;
   display: none;
 }
 .header-bottom .top-header-left.phone .collection,
@@ -222,20 +223,24 @@ a{
 }
 /*footer*/
 .footer-grids{
-  width: 80%;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 20px;
   font-family: '思源黑体';
 }
-.footer-grids .col-md-3{
-  padding: 0 30px;
-  text-align: center;
-}
-.footer-grids .col-md-3 .erweima{
-  margin-bottom: 15px;
+.footer-grids .col-md-6 .erweima{
   font-size: 15px;
+  text-align: center;
+  margin: 0 35px;
+  float: right;
+}
+.footer-grids .col-md-6 .erweima .title{
+  margin-bottom: 15px;
+}
+.footer-grids .col-md-6 .erweima img{
+  width: 8rem;
 }
 .footer-grids .address p{
   color: #333333;
@@ -289,14 +294,14 @@ a{
 }*/
 /*content*/
 .main_content{
-  width: 80%;
+  width: 1100px;
   margin: 0 auto;
   background-color: #fff;
   margin-top: 152px;
 }
 /*banner*/
 .main_content #slider1{
-  height: 450px;
+  height: 500px;
 }
 /*content*/
 .main_content {
@@ -378,6 +383,19 @@ a{
   color: #000;
   margin-bottom: 13px;
 }
+.main_content .offers-left .goods1 img{
+  height: 434px;
+}
+.main_content .offers-right .goods1 img,
+.main_content .offers-left .goods2 img{
+  height: 233px;
+}
+.main_content .offers-left .goods3 img{
+  height: 205px;
+}
+.main_content .offers-right .goods2 img{
+  height: 153px;
+}
 .main_content .offers-left .goods3,
 .main_content .offers-right .goods5{
   display: flex;
@@ -399,6 +417,9 @@ a{
 .main_content .offers-left .goods3 img,
 .main_content .offers-right .goods2 img{
   height: 50%;
+}
+.main_content .offers-right .goods3 img{
+  height: 485px;
 }
 /*登录*/
 .log_box{
@@ -906,7 +927,9 @@ a{
 }
 /*详情页*/
 .detailsPage {
-  margin-top: 152px;
+  margin-top: 167px;
+  background-color: #f4f4f4;
+  width: 1100px;
 }
 .detailsPage  .flexslider ul{
   width: 100%;
@@ -960,14 +983,14 @@ a{
   margin-bottom: 25px;
 }
 .single-para .details li{
-  padding-left: 86px;
-  background: url(../image/icon/zhengpin.png) no-repeat left center;
   margin-bottom: 36px;
   background-size: 50px;
-  color: #666666;
 }
-.single-para .details li .title{
-  color: #000;
+.single-para .details li span{
+  color: #666;
+}
+.single-para .details li .price{
+  color: #e93a38;
 }
 .single-para .details li p{
   line-height: 24px;
@@ -1060,7 +1083,7 @@ a{
 }
 /*列表页*/
 .listsPage .container {
-  width: 80%;
+  width: 1100px;
   margin: 0 auto;
   padding: 0;
 }
@@ -1169,19 +1192,8 @@ input:active:focus,
 }
 .phone-lists{
   display: none;
-}
-@media (max-width: 1200px){
-  .main_content #slider1{
-    height: 400px;
-  }
-  #slider2 li .items{
-    height: 450px;
-  }
-}
+} 
 @media (max-width: 1000px){
-  .main_content #slider1{
-    height: 300px;
-  }
   .skyblue li>a{
     margin: 0 1rem !important;
   }
@@ -1358,6 +1370,7 @@ input:active:focus,
     background: url(../image/icon/lists.png) no-repeat 15px center;
     background-size: 35px;
   }
+
   /*footer*/
   .footer{
     padding: 40px 0 10px !important;
