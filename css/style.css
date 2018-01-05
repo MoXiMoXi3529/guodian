@@ -1162,17 +1162,18 @@ color:#8ce78a;
 }
 /*--single--*/
 .single-top {
-    width: 32%;
-	    margin-right: 5em;
+    width: 50%;
+    padding: 0 6rem;
+}
+.single-top-in{
+  width: 50%;
 }
 .thumb-image { width: 323px;
 	padding:1em;
  }
 
 .thumb-image > img { width: 100%; }
-.single-top-in {
-    width: 61%;
-}
+
 .imagezoom-view{
 position: absolute;
     left: 650.5px!important;
