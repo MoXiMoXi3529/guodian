@@ -1,0 +1,204 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div, input, dl, dt {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f7;
+  color: #000;
+  font-size: 14px;
+  font-family: "PingFangSC-Regular4";
+}
+
+ul,ol {
+  list-style-type: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:link {
+  color: #000000;
+} 
+/*a:visited{color:#800080;} */
+a:hover,a:active,a:focus {
+  color: #ad0400;
+  text-decoration: none;
+}
+
+@face-font {
+  font-family: 'PingFangSC-Regular4';
+   src: url(../fonts/PingFangSC-Regular4.ttf);
+}
+
+.setPage{
+  background-color: #f5f5f7;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #FFF;
+}
+
+.contentBox {
+  padding: 30px 50px;
+  background-color: #fff;
+  margin: 212px 0 10px;
+  font-family: '思源黑体';
+}
+
+.pageTitle {
+  font-size: 18px;
+  line-height: 80px;
+  border-bottom: 1px solid #e4e4e4;
+  font-weight: 600;
+}
+
+.setForm {
+  position: relative;
+  padding-top: 30px;
+}
+
+.headImage {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 10rem;
+}
+
+.formRow {
+  margin-top: 20px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.formRow .label {
+  float: left;
+  width: 220px;
+  text-align: right;
+  font-size: 15px;
+  color: #000;
+  line-height: 30px;
+}
+
+.formRow .inputtext {
+  float: left;
+  line-height: 38px;
+}
+
+.formRow .inputtext input.text {
+  height: 38px;
+  line-height: 38px;
+  font-size:15px;
+  border-radius: 5%;
+  border: 1px solid #dcdcdc;
+  width: 250px;
+}
+
+.formRow .redTip {
+  float: left;
+  color: #b5150b;
+  font-size: 14px;
+  padding-left: 20px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.huiTip {
+  padding-left: 220px;
+  color: #686868;
+  font-size: 14px;
+  width: 754px;
+  margin-top: 15px;
+}
+
+.formRow .inputtext .radio {
+  margin-top: 5px;
+  float: left;
+  width: 23px;
+  height: 23px;
+  background: url(../images2/setting_07.jpg) center center no-repeat;
+}
+
+.formRow .inputtext .radio.current {
+  background: url(../images2/setting_09.jpg) center center no-repeat;
+}
+
+.formRow .inputtext .radioValue {
+  margin: -2px 15px 0;
+  float: left;
+  font-weight: 600;
+}
+
+.formRow .inputtext .timebox {
+  position: relative;
+  float: left;
+  width: 100px;
+  border: 1px solid #dcdcdc;
+  /*height: 38px;*/
+  /*line-height: 38px;*/
+  border-radius: 5%;
+}
+
+.formRow .inputtext .timeLabel {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  margin: 0 15px;
+}
+
+.formRow .inputtext .timebox input {
+  width: 70px;
+  padding-left: 10px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 15px;
+}
+
+.formRow .inputtext .timebox .plus {
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: url(../images2/setting_14.jpg) center center no-repeat;
+}
+
+.formRow .inputtext .timebox .decrease {
+  display: block;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  background: url(../images2/setting_16.jpg) center center no-repeat;
+}
+
+.formRow .inputtext .editPhoneButton {
+  cursor: pointer;
+  color: #636365;
+}
+
+.setForm #submit {
+  width: 150px;
+  height: 55px;
+  background: #cc5252;
+  text-align: center;
+  color: #FFF;
+  font-size: 28px;
+  margin: 50px 65px 20px 220px;
+  border-radius: 5%;
+  font-size: 20px;
+} 
+
+
