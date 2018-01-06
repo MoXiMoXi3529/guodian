@@ -38,6 +38,7 @@
       $('.memenu>li>.mepanel').css({
         'top': '80px' 
       })
+      $('.header-top .search input').addClass('active')
       $('.skyblue li>a').css({
         'margin': '0 1rem'
       })
@@ -48,9 +49,14 @@
       $('.memenu>li>.mepanel').css({
         'top': '152px' 
       })
+      $('.header-bottom .search .sec').removeClass('active')
+      $(document).on('click', '.header-bottom .search .sec', function () {
+        $(this).parent().toggleClass('.active')
+        $(this).siblings().toggleClass('.active')
+      })
     }
   })
-  console.log($(document).scrollTop())
+  
   // var Height =  $('.header-top').height() 
   // console.log(Height)
   // window.onscroll = function () {
