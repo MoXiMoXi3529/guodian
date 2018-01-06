@@ -238,7 +238,7 @@ a{
 }
 /*footer*/
 .footer-grids{
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   border-bottom: 1px solid #cccccc;
@@ -309,14 +309,14 @@ a{
 }*/
 /*content*/
 .main_content{
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
   background-color: #fff;
   margin-top: 152px;
 }
 /*banner*/
 .main_content #slider1{
-  height: 500px;
+  /*height: 400px;*/
 }
 /*content*/
 .main_content {
@@ -434,7 +434,7 @@ a{
   height: 50%;
 }
 .main_content .offers-right .goods3 img{
-  height: 480px;
+  height: 485px;
 }
 /*登录*/
 .log_box{
@@ -745,7 +745,7 @@ a{
 .list-items .list-content ul li{
   width: 23%;
   padding: 20px 25px;
-  margin: 0 5px;
+  margin: 0 5px 15px;
   border: 1px solid #e9e9e9;
   box-shadow: 0 4px 5px #ccc;
 }
@@ -944,7 +944,8 @@ a{
 .detailsPage {
   margin-top: 167px;
   background-color: #f4f4f4;
-  width: 1000px;
+  width: 1100px;
+  margin: 162px auto 10px;
 }
 .detailsPage  .flexslider ul{
   width: 100%;
@@ -1039,7 +1040,8 @@ a{
   display: flex;
 }
 .product-detail .top-sing .title .left{
-  width: 5rem;
+  width: 6rem;
+  text-align: left;
 }
 .product-detail .top-sing .title .right{
   display: inline-block;
@@ -1097,7 +1099,7 @@ a{
 }
 /*列表页*/
 .listsPage .container {
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
   padding: 0;
 }
