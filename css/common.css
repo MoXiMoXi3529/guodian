@@ -1137,10 +1137,11 @@ a{
   padding: 5px;
 }
 .detailsPage .flexslider ul li{
-  box-shadow: 0 0 5px #fff;
+  border: 1px solid #fff;
 }
 .detailsPage .flexslider ul li.active{
-  box-shadow: 0 0 5px #000;
+  border: 1px solid #999;
+  border-radius: 5px;
 }
 /*列表页*/
 .listsPage .container {
