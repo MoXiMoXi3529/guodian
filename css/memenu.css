@@ -41,7 +41,8 @@ ul.memenu.skyblue {
   left: 0;
   top: 151px;
   z-index: 99;
-  padding: 72px 15%;
+  font-family: '苹方';
+  padding: 35px 15%;
   border: solid 1px #ccc;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -74,6 +75,7 @@ ul.memenu.skyblue {
 .me-one h4 {
   font-size: 16px;
   text-align: left;
+  font-weight: 600;
 }
 
 .memenu .mepanel ul {

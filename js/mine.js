@@ -23,6 +23,7 @@
   })
   $(document).on('click', '.detailsPage .items', function () {
     $('.flexslider>img').attr('src', $(this).attr('data-img'))
+    $(this).addClass('active').siblings().removeClass('active')
   })
   $(document).on('click', '.top-nav .h-b-left', function () {
     $('.memenu').toggle()

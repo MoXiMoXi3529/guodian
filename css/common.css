@@ -33,11 +33,11 @@ a{
 .header-top .top-header-main .top-header-left{
   flex: 1;
   line-height: 70px;
+  font-family: '思源黑体';
 }
 .header-top .container a{
   color: #000;
   display: inline-block;
-  font-family: '思源黑体';
 }
 .header-top .container a.advisory{
   position: relative;
@@ -174,6 +174,7 @@ a{
   padding: 0;
   width: 150px;
   display: none;
+  font-family: '思源黑体';
 }
 .header-bottom .top-header-left.log a{
   width: 100%;
@@ -243,26 +244,29 @@ a{
   display: flex;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 20px;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 .footer-grids .col-md-6 .erweima{
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   margin: 0 35px;
   float: right;
+  font-weight: 600;
 }
 .footer-grids .col-md-6 .erweima .title{
   margin-bottom: 15px;
 }
 .footer-grids .col-md-6 .erweima img{
-  width: 8rem;
+  width: 11rem;
 }
 .footer-grids .address p{
   color: #333333;
   margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 600;
 }
 .footer-grids .address p.title{
-  font-size: 17px;
+  font-size: 20px;
 }
 .footer-bottom {
   text-align: center;
@@ -270,7 +274,6 @@ a{
 .footer-bottom p{
   color: #333333;
   font-size: 14px;
-  font-family: '思源黑体';
   line-height: 85px;
 }
 .footer-bottom img{
@@ -301,7 +304,6 @@ a{
 .footer-bottom p{
   color: #333333;
   font-size: 14px;
-  font-family: '思源黑体';
   line-height: 85px;
 }
 .footer-bottom img{
@@ -323,12 +325,14 @@ a{
   color: #000;
 }
 .main_content .title{
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  padding: 30px 0;
+  padding: 10px 0;
+  font-family: '苹方';
+  color: #000;
 }
 .main_content .title p:nth-child(2){
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 11px;
 }
 #slider2 li {
@@ -338,12 +342,15 @@ a{
 #slider2 li .items{
   display: inline-block;
   width: 33.333%;
-  height: 450px;
   box-shadow: 0 4px 8px #ccc;
   margin: 0 5px;
+  font-family: '苹方';
+  font-size: 18px;
+  padding: 2rem 0 20px;
 }
 #slider2 li .items .price{
   text-align: center;
+  font-weight: 600;
 }
 .main_content .slider.goods{
   padding: 0 55px;
@@ -390,6 +397,9 @@ a{
 .main_content .offers .goods .details{
   padding: 38px 0;
   color: #999999;
+  font-family: '苹方';
+  font-size: 18px;
+  font-weight: 600;
 }
 .main_content .offers .goods .details p{
   padding: 0 10%;
@@ -399,7 +409,7 @@ a{
   margin-bottom: 13px;
 }
 .main_content .offers-left .goods1 img{
-  height: 434px;
+  height: 435px;
 }
 .main_content .offers-right .goods1 img,
 .main_content .offers-left .goods2 img{
@@ -434,15 +444,12 @@ a{
   height: 50%;
 }
 .main_content .offers-right .goods3 img{
-  height: 485px;
+  height: 486px;
 }
 /*登录*/
-.log_box{
-
-}
 .log_box .third_party{
-  font-family: '思源黑体';
   font-size: 22px;
+  font-family: '思源黑体';
 }
 .third_party .third_content {
   width: 100%;
@@ -474,25 +481,28 @@ a{
 }
 .product_content.lists{
   background-color: #fff;
-  padding-bottom: 60px;
+  padding-bottom: 17rem;
 }
 .product_imgs{
   position: relative;
 }
 .product_content .title{
-  margin-top: 45px;
-  font-family: '思源黑体';
+  padding-top: 45px;
+  padding-bottom: 2rem;
 }
 .product_content .title p{
   font-size: 16px;
   text-align: center;
+  font-family: '苹方';
+  font-weight: 600;
+  line-height: 30px;
 }
 .product_content .title p:last-child{
   margin-bottom: 50px;
 }
 .product_content .title p:nth-child(1){
   font-size: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .product-model-sec ul{
   padding: 0 125px;
@@ -505,11 +515,11 @@ a{
 }
 .product_imgs .title{
   position: absolute;
-  top: -15%;
+  top: -7rem;
   left: 134px;
   right: 134px;
   background-color: #fff;
-  padding-top: 65px;
+  padding-top: 70px;
   margin-top: 0;
   border-top: 1px solid #e9e9e9;
 }
@@ -518,7 +528,6 @@ a{
   display: flex;
   background-color: #f7f7f9;
   display: flex;
-  font-family: '思源黑体';
 }
 .product_details > div{
   flex: 1;
@@ -528,18 +537,24 @@ a{
 }
 .product_details .discription{
   padding-left: 30px;
+  font-family: '苹方';
 }
 .product_details .discription p{
   margin-top: 0;
 }
 .product_details .discription .title1{
   margin-bottom: 33px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .product_details .discription .title2{
   color: #999999;
 }
 .product_details .discription .list p{
   line-height: 26px;
+}
+.product_details .discription .list .discrip{
+  font-weight: 600;
 }
 .img_box{
   width: 80%;
@@ -557,26 +572,30 @@ a{
 }
 .img_box .imgBox_bottom.right .content{
   padding: 40px 15px 0;
-  font-family: '思源黑体';
+  font-family: '苹方';
+  font-weight: 600;
 }
 .img_box .imgBox_bottom.right .content .title{
-  font-size: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 .img_box .imgBox_bottom.right .content p{
   line-height: 26px;
 }
 /*联系我们*/
 .main_artical{
-  margin-top: 152px;
-  font-family: '思源黑体';
+  margin-top: 150px;
 }
 .main_artical .contact > .title{
   text-align: center;
   padding: 50px 0;
-  font-family: '思源黑体';
 }
 .main_artical .contact .title h3{
-  font-size: 30px;
+  font-size: 22px;
+}
+.main_artical .contact .title h4{
+  font-size: 12px;
+  margin-top: 5px;
 }
 .main_artical .contact .contact_us{
   width: 80%;
@@ -586,11 +605,12 @@ a{
 .main_artical .contact .contact_us > div{
   flex: 1;
   text-align: center;
-  padding: 125px 25px 50px;
+  padding: 125px 25px 60px;
   margin: 0 15px;
   background: url(../image/icon/phone.png) no-repeat center 24%;
   background-size: 4.5rem;
   background-color: #fff;
+  font-family: '思源黑体';
 }
 .main_artical .contact .contact_us > div:nth-child(1){
   margin-left: 0;
@@ -617,8 +637,8 @@ a{
   width: 80%;
   margin: 0 auto;
   background-color: #fff;
-  padding: 60px 10%;
-  margin-bottom: 100px;
+  padding: 25px 10%;
+  margin-bottom: 50px;
 }
 .main_artical form .top{
   margin-bottom: 30px;
@@ -629,9 +649,9 @@ a{
   border: none;
   background-color: #edf1f4;
   border-radius: 20px;
-  height: 40px;
-  line-height: 40px;
+  height: 36px;
   padding-left: 16px;
+  font-size: 12px;
 }
 .main_artical form .top .email{
   float: right;
@@ -643,17 +663,20 @@ a{
   background-color: #edf1f4;
   width: 100%;
   resize: none;
+  font-size: 12px;
 }
 .main_artical form input[type="submit"]{
   outline:none;
   border:1px solid #fff;
   color:#fff;
   background-color: #902729;
-  border-radius: 18px;
-  height: 40px;
+  border-radius: 25px;
+  height: 45px;
   width: 40%;
   display: inline-block;
-  margin: 74px 0 50px 50%;
+  margin: 50px 0 0 50%;
+
+  /*margin: 74px 0 50px 50%;*/
   font-size: 16px;
   transform: translateX(-50%);
 }
@@ -664,7 +687,8 @@ a{
   /*content: '&#62';*/
 }
 .breadcrumb{
-  padding: 0;
+  padding: 6px 0;
+  color: #666;
 }
 .list-items {
   background-color: #e4e4e4;
@@ -807,7 +831,6 @@ a{
   padding: 24px 0;
   background-color: #fff;
   margin-bottom: 60px;
-  font-family: '思源黑体';
   /*color: #000;*/
 }
 .listsPage .condition .all-title .limit i{
@@ -866,8 +889,8 @@ a{
 }
 .collecPage .choose{
   margin: 15px 30px;
-  padding-top: 15px;
-  font-size: 16px;
+  padding: 22px 0 6px;
+  color: #666;
 }
 .collecPage .choose span{
   margin-left: 24px;
@@ -899,7 +922,7 @@ a{
 .collecPage .lists ul li{
   width: 48%;
   background-color: #fff;
-  padding: 10px 30px 90px;
+  padding: 10px 30px 70px;
   margin-bottom: 30px;
 }
 .collecPage .lists ul li:nth-child(2n){
@@ -918,13 +941,15 @@ a{
   display: none;
 }
 .collecPage .lists .lock .color{
-  margin-left: 40px;
+  margin-left: 25px;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .collecPage .lists .lock .price{
-  font-size: 20px;
+  font-size: 24px;
 }
 .collecPage .lists .lock img{
-  padding: 90px 20% 0;
+  padding: 50px 24% 0;
 }
 .collecPage .total{
   width: 100%;
@@ -975,7 +1000,7 @@ a{
 .product-price1{
   background-color: #fff !important;
   padding: 40px 45px;
-  font-family: '思源黑体';
+  font-family: '苹方';
   box-shadow: 0 5px 5px #ccc;
   margin-bottom: 30px;
 }
@@ -983,10 +1008,12 @@ a{
   font-weight: normal;
 }
 .single-para h4{
-  line-height: 30px;
+  line-height: 22px;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 10px;
   margin-bottom: 22px;
+  font-size: 13px;
+  font-weight: 600;
 }
 .single-para h5 .color{
   margin-left: 50px;
@@ -998,8 +1025,9 @@ a{
   margin-bottom: 25px;
 }
 .single-para .details li{
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   background-size: 50px;
+  font-weight: 600;
 }
 .single-para .details li span{
   color: #666;
@@ -1031,7 +1059,7 @@ a{
   background-size: 2rem;
 }
 .product-detail {
-  font-family: '思源黑体';
+  font-family: '苹方';
   color: #000;
   padding-bottom: 107px;
 }
@@ -1042,6 +1070,7 @@ a{
 .product-detail .top-sing .title .left{
   width: 6rem;
   text-align: left;
+  font-weight: 600;
 }
 .product-detail .top-sing .title .right{
   display: inline-block;
@@ -1049,6 +1078,9 @@ a{
   position: relative;
   margin-left: 5px;
   color: #666;
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
 }
 .product-detail .top-sing .title .right::after{
   content: '';
@@ -1071,12 +1103,13 @@ a{
   background-color: #f6f6f6;
   margin-bottom: 6px;
   border-right: 6px solid #fff;
+  font-weight: 600;
 }
 .product-detail .top-sing ul li:nth-child(4n){
   border: none;
 }
 .product-detail .description {
-  margin-bottom: 55px;
+  margin-bottom: 20px;
 }
 .product-detail .details .img-box{
   padding: 0 30%;
@@ -1096,6 +1129,15 @@ a{
 }
 .simpleCart_shelfItem{
   position: relative;
+}
+.detailsPage .flexslider ul{
+  padding: 5px;
+}
+.detailsPage .flexslider ul li{
+  box-shadow: 0 0 5px #fff;
+}
+.detailsPage .flexslider ul li.active{
+  box-shadow: 0 0 5px #000;
 }
 /*列表页*/
 .listsPage .container {
@@ -1117,23 +1159,27 @@ a{
 /*忘记密码*/
 .setpasd {
   background-color: #fff;
-  padding: 80px;
-  margin: 100px 10% 120px;
-  font-family: '思源黑体';
+  padding: 60px 60px 100px;
+  margin: 60px 10%;
+  font-family: '苹方';
   color: #000;
 }
 .setpasd .title{
   font-size: 20px;
   border-bottom: 1px solid #e4e4e4;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 600;
 }
 .setpasd form {
-  width: 100%;
+  width: 80%;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 .setpasd form .content {
   width: 100%;
+}
+.setpasd form .content label{
+  font-weight: 600;
 }
 .setpasd form input[type='text']{
   height: 42px;
@@ -1170,7 +1216,6 @@ a{
 .modal.in .modal-dialog{
   width: 30%;
   top: 32%;
-  font-family: '思源黑体';
   color: #000;
 }
 .modal-header{
@@ -1212,7 +1257,6 @@ input:active:focus,
 /*搜索*/
 .search-result {
   margin: 182px 0 30px;
-  font-family: '思源黑体';
   text-align: center;
 }
 .search-result .result-none{
@@ -1224,6 +1268,7 @@ input:active:focus,
   font-size: 20px;
   padding-top: 54px;
   padding-bottom: 20px;
+  font-weight: 600;
 }
 .restlt-list .total{
   color: #999;
@@ -1618,7 +1663,7 @@ input:active:focus,
     box-shadow: 0 -3px 5px #ccc;
   }
   .product-price1{
-    padding: 40px 28px;
+    padding: 30px 28px;
     box-shadow: 0 0;
     margin-bottom: 10px;
   }
