@@ -53,7 +53,7 @@ a:hover,a:active,a:focus {
   padding: 30px 50px;
   background-color: #fff;
   margin: 212px 0 10px;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 
 .pageTitle {
@@ -96,8 +96,8 @@ a:hover,a:active,a:focus {
 }
 
 .formRow .inputtext input.text {
-  height: 38px;
-  line-height: 38px;
+  height: 30px;
+  line-height: 30px;
   font-size:15px;
   border-radius: 5%;
   border: 1px solid #dcdcdc;
@@ -126,11 +126,11 @@ a:hover,a:active,a:focus {
   float: left;
   width: 23px;
   height: 23px;
-  background: url(../images2/setting_07.jpg) center center no-repeat;
+  background: url(../image/icon/setting_07.jpg) center center no-repeat;
 }
 
 .formRow .inputtext .radio.current {
-  background: url(../images2/setting_09.jpg) center center no-repeat;
+  background: url(../image/icon/setting_09.jpg) center center no-repeat;
 }
 
 .formRow .inputtext .radioValue {
@@ -144,8 +144,8 @@ a:hover,a:active,a:focus {
   float: left;
   width: 100px;
   border: 1px solid #dcdcdc;
-  /*height: 38px;*/
-  /*line-height: 38px;*/
+  height: 30px;
+  line-height: 30px;
   border-radius: 5%;
 }
 
@@ -159,8 +159,7 @@ a:hover,a:active,a:focus {
 .formRow .inputtext .timebox input {
   width: 70px;
   padding-left: 10px;
-  height: 38px;
-  line-height: 38px;
+  height: 25px;
   font-size: 15px;
 }
 
@@ -171,7 +170,7 @@ a:hover,a:active,a:focus {
   position: absolute;
   top: 8px;
   right: 10px;
-  background: url(../images2/setting_14.jpg) center center no-repeat;
+  background: url(../image/icon/setting_14.jpg) center center no-repeat;
 }
 
 .formRow .inputtext .timebox .decrease {
@@ -181,7 +180,7 @@ a:hover,a:active,a:focus {
   position: absolute;
   bottom: 8px;
   right: 10px;
-  background: url(../images2/setting_16.jpg) center center no-repeat;
+  background: url(../image/icon/setting_16.jpg) center center no-repeat;
 }
 
 .formRow .inputtext .editPhoneButton {
