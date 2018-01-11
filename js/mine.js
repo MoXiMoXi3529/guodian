@@ -38,7 +38,8 @@
         $('.memenu').toggle()
         $(this).toggleClass('active')
     })
-    $(window).scroll(function (event) {
+    if(!(navigator.userAgent.match(/(iPhone|iPod|Android|ios|Windows Phone)/i))){
+      $(window).scroll(function (event) {
         var Height = $('.header-top').height()
         var top = $(document).scrollTop()
         if (top > Height) {
@@ -65,7 +66,8 @@
                 $(this).siblings().toggleClass('.active')
             })
         }
-    })
+     })
+    }
 })();
 
 if(!(navigator.userAgent.match(/(iPhone|iPod|Android|ios|Windows Phone)/i))){

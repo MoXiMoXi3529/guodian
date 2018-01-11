@@ -347,10 +347,11 @@ a{
   font-family: '苹方';
   font-size: 18px;
   padding: 2rem 0 20px;
+  background-color: #fff;
 }
 #slider2 li .items .price{
   text-align: center;
-  font-weight: 600;
+  /*font-weight: 600;*/
 }
 .main_content .slider.goods{
   padding: 0 55px;
@@ -387,7 +388,7 @@ a{
   margin-left: 7px;
 }
 .main_content .offers img{
-  width: 100%;
+  width: auto;
 }
 .main_content .offers .goods{
   background-color: #fff;
@@ -399,7 +400,6 @@ a{
   color: #999999;
   font-family: '苹方';
   font-size: 18px;
-  font-weight: 600;
 }
 .main_content .offers .goods .details p{
   padding: 0 10%;
@@ -407,6 +407,7 @@ a{
 .main_content .goods .details p:nth-child(1){
   color: #000;
   margin-bottom: 13px;
+  font-weight: 600;
 }
 .main_content .offers-left .goods1 img{
   height: 435px;
@@ -595,10 +596,14 @@ a{
 }
 .main_artical .contact .title h3{
   font-size: 22px;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .main_artical .contact .title h4{
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 5px;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .main_artical .contact .contact_us{
   width: 80%;
@@ -613,7 +618,7 @@ a{
   background: url(../image/icon/phone.png) no-repeat center 24%;
   background-size: 4.5rem;
   background-color: #fff;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 .main_artical .contact .contact_us > div:nth-child(1){
   margin-left: 0;
@@ -1327,12 +1332,16 @@ input:active:focus,
   .header-bottom .container .logo{
     display: inline-block;
   }
+  .header-bottom .top-header-left.log{
+    display: none;
+  }
   .container{
     padding-right: 0;
   }
   .main_content{
     width: 100%;
     margin-top: 60px;
+    background-color: #f6f6f8;
   }
   .main_content #slider1{
     height: 200px;
@@ -1364,7 +1373,7 @@ input:active:focus,
   }
   .header-bottom .h-b-left.active{
     background: url(../image/icon/close.png) no-repeat 15px center;
-    background-size: 35px;
+    background-size: 28px;
   }
   .header-top .container .logo:hover::before ul.memenu.skyblue{
     width: 100%;
@@ -1388,7 +1397,34 @@ input:active:focus,
     flex: none !important;
     width: 100%;
     height: 60px;
-
+    background: url(../image/icon/home1.png) no-repeat 25px center;
+    background-size: 22px;
+    border-bottom: 1px solid #ccc;
+    line-height: 60px;
+  }
+  ul.memenu.skyblue li:nth-child(2){
+    background: url(../image/icon/zhubao1.png) no-repeat 25px center;
+    background-size: 22px;
+  }
+  ul.memenu.skyblue li:nth-child(3){
+    background: url(../image/icon/watch.png) no-repeat 25px center;
+    background-size: 18px;
+  }
+  ul.memenu.skyblue li:nth-child(4){
+    background: url(../image/icon/bao.png) no-repeat 25px center;
+    background-size: 22px;
+  }
+  ul.memenu.skyblue li:nth-child(5){
+    background: url(../image/icon/siren.png) no-repeat 25px center;
+    background-size: 22px;
+  }
+  ul.memenu.skyblue li:nth-child(6){
+    background: url(../image/icon/present.png) no-repeat 25px center;
+    background-size: 22px;
+  }
+  ul.memenu.skyblue li a{
+    height: 100%;
+    line-height: 60px;
   }
   .memenu>li.showhide span:after{
     width: 0 !important;
@@ -1403,43 +1439,10 @@ input:active:focus,
     margin: 0 !important;
     position: relative;
   }
-
-  .memenu>li>a::before, .memenu>li.active>a::before,
-  .memenu>li>a::after, .memenu>li.active>a::after{
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 38%;
-    left: 28px;
-    background: url(../image/icon/home1.png) no-repeat center;
-    background-size: 100%;
-  }
-  /*.memenu>li:nth-child(3) a::before{
-    background: url(../image/icon/zhubao1.png) no-repeat 28px center;
-    background-size: 22px;
-  }
-  .memenu>li a:nth-child(3)>a{
-    background: url(../image/icon/watch.png) no-repeat 30px center;
-    background-size: 16px;
-  }
-  .memenu>li:nth-child(4)>a{
-    background: url(../image/icon/bao.png) no-repeat 28px center;
-    background-size: 20px;
-  }
-  .memenu>li a:nth-child(5)>a{
-    background: url(../image/icon/siren.png) no-repeat 28px center;
-    background-size: 20px;
-  }
-  .memenu>li a:nth-child(6)>a{
-    background: url(../image/icon/present.png) no-repeat 28px center;
-    background-size: 20px;
-  }
   ul.memenu.skyblue li a{
     background: url(../image/icon/right.jpg) no-repeat 96% center;
     background-size: 22px;
-  }*/
+  }
   ul.memenu.skyblue li.active a{
     background: url(../image/icon/red.png) no-repeat 96% center;
     background-size: 22px;
@@ -1464,12 +1467,12 @@ input:active:focus,
   .top-nav .logo,
   .top-nav .search{
     width: 33.333% !important;
+    height: 56px;
   }
   .top-nav .h-b-left{
     background: url(../image/icon/lists.png) no-repeat 15px center;
-    background-size: 35px;
+    background-size: 28px;
   }
-
   /*footer*/
   .footer{
     padding: 40px 0 10px !important;
@@ -1536,6 +1539,9 @@ input:active:focus,
   }
   .items{
     padding-bottom: 1rem;
+  }
+  .main_content .offers img{
+    width: 100%;
   }
   /*收藏*/
   .collecPage .choose{
@@ -1611,17 +1617,19 @@ input:active:focus,
     padding: 20px 0;
   }
   .main_artical .contact .contact_us > div{
-    background-size: 23px !important;
+    background-size: 22px !important;
     height: 108px;
     padding: 50px 15px 15px;
     margin: 0 4px;
   }
   .main_artical .contact .title h3{
-    font-size: 16px;
-    margin-bottom: 2px;
+    font-size: 12px;
+    margin-bottom: 0;
   }
   .main_artical .contact .title h4{
     font-size: 12px;
+    margin-top: 0;
+    transform: scale(0.80);
   }
   .main_artical .contact .contact_us{
     width: 85%;
@@ -1727,8 +1735,116 @@ input:active:focus,
   .listsPage .breadcrumb{
     display: none;
   }
+  /*footer*/
+  .footer{
+    padding: 40px 10px 10px !important;
+  }
+  .footer-bottom img{
+    display: none;
+  }
+  .footer-grids{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-grids .col-md-6{
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-grids .col-md-6 .erweima{
+    width: 50%;
+    font-size: 12px;
+    margin: 0 0 15px;
+    transform: scale(0.80);
+  }
+  .footer-grids .col-md-6 .erweima img{
+    width: 9rem;
+  }
+  .footer-grids .address p:nth-child(2n){
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 12px;
+    transform: scale(0.90);
+    color: #999;
+    margin-bottom: 10px;
+  }
+  .footer-grids .address p.title{
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .main_content .offers {
+    flex-wrap: wrap;
+  }
+  .main_content .offers .offers-left, 
+  .main_content .offers .offers-right{
+    flex: none;
+    width: 100%;
+    margin: 0;
+  }
+  .main_content .offers .offers-left img,
+  .main_content .offers .offers-right img{
+    height: 100%;  
+  }
+  .main_content .offers .goods .details{
+      padding: 20px 0;
+      font-size: 14px;
+      font-weight: normal; 
+  }
+  .main_content .offers-left .goods3 .details{
+    padding-top: 40px;
+  }
+   /*收藏*/
+  .collecPage .total{
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+   .collecPage .total .color1{
+    font-size: 14px;
+    margin-bottom: 0;
+   }
+  .collecPage .total .num .color1,
+  .collecPage .total .num{
+    font-size: 12px;
+    transform: scale(0.90);
+  }
+  .collecPage .lists ul li{
+    padding: 22px 10px 5px;
+  }
+  .collecPage .lists .bottom{
+    font-size: 12px;
+    transform: scale(0.90);
+  }
+  .collecPage .lists .lock img{
+    padding: 0 25px 15px; 
+  }
+  .collecPage .lists .lock .price{
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .collecPage .lists .bottom .delete{
+    margin-top: 10px;
+  }
 }
 @media (max-width: 420px){
+  /*首页*/
+  .main_content .title{
+    padding: 30px 0;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .main_content .title p:nth-child(2){
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  #slider2 li .items .price{
+    font-size: 12px;
+    margin-top: 100px;
+  }
+  #slider2 li .items{
+    padding-bottom: 10px;
+  }
   /*详情页*/
   .detailsPage .container{
     padding: 0;
@@ -1782,9 +1898,5 @@ input:active:focus,
   }
   .list-items nav{
     display: none;
-  }
-  /*index*/
-  #slider2 li .items{
-    height: 120px;
   }
 }
