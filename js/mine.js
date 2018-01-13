@@ -12,6 +12,16 @@
     $(document).on('click', '.userinfo', function () {
         $('.popover').toggle()
     })
+    // 移动端搜索列表
+    $(document).on('click', '.search-list ul li', function () {
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+    $(document).on('click', '.search-list>.title', function () {
+        $(this).siblings().slideToggle('slow')
+    })
+    $(document).on('click', '.classify ul li', function () {
+        $(this).addClass('active').siblings().removeClass('active')
+    })
     $(document).on('click', '.sec', function () {
         var url = $(this).attr("data-href");
         var q = $(this).prev('input').val();
