@@ -50,6 +50,8 @@ a{
 .header-top .container a{
   color: #000;
   display: inline-block;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .header-top .container a.advisory{
   position: relative;
@@ -61,8 +63,10 @@ a{
   border: 1px solid #aaaaaa;
   display: inline-block;
   height: 25px;
+  width: 100px;
   line-height: 14px;
-  padding: 5px 6px;
+  padding: 5px 0;
+  text-align: center;
   box-shadow: 0 0 5px #ccc;
   position: absolute;
   bottom: -5px;
@@ -628,7 +632,7 @@ a{
 }
 /*联系我们*/
 .main_artical{
-  margin-top: 150px;
+  margin-top: 146px;
 }
 .main_artical .contact > .title{
   text-align: center;
@@ -821,15 +825,15 @@ a{
   flex-wrap: wrap;
 }
 .list-items .list-content ul li{
-  width: 23%;
+  width: 24%;
   padding: 20px 25px;
   margin: 0 5px 15px;
   border: 1px solid #e9e9e9;
   box-shadow: 0 4px 5px #ccc;
+  text-align: center;
 }
 .list-items .list-content ul li p{
   line-height: 22px;
-  /*font-family: '苹方';*/
 }
 .list-items .list-content ul li p:nth-child(1){
   height: 66px;
@@ -860,6 +864,8 @@ a{
   box-shadow: 0 5px 5px #ccc;
   position: relative;
   margin-bottom: 4rem;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .listsPage .condition .more{
   display: inline-block;
@@ -887,8 +893,6 @@ a{
   background-color: #fff;
   margin-bottom: 60px;
   /*color: #000;*/
-  font-family: '苹方';
-  font-weight: 600;
 }
 .listsPage .condition .all-title .limit i{
   display: inline-block;
@@ -1080,6 +1084,7 @@ a{
 }
 .single-para h5 {
   margin-bottom: 25px;
+  font-weight: 600;
 }
 .single-para .details li{
   margin-bottom: 20px;
@@ -1196,6 +1201,7 @@ a{
 .detailsPage .flexslider ul li.active{
   border: 1px solid #999;
   border-radius: 5px;
+  overflow: hidden;
 }
 /*列表页*/
 .listsPage .container {
