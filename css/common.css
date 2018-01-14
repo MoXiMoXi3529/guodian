@@ -33,7 +33,7 @@ a{
 .header-top .top-header-main .top-header-left{
   flex: 1;
   line-height: 70px;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 .header-top .container a{
   color: #000;
@@ -174,7 +174,7 @@ a{
   padding: 0;
   width: 150px;
   display: none;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 .header-bottom .top-header-left.log a{
   width: 100%;
@@ -450,7 +450,7 @@ a{
 /*登录*/
 .log_box .third_party{
   font-size: 22px;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 .third_party .third_content {
   width: 100%;
@@ -894,7 +894,7 @@ a{
 /*收藏*/
 .collecPage {
   background-color: #f6f6f8;
-  font-family: '思源黑体';
+  font-family: '苹方';
 }
 .collecPage .choose{
   margin: 15px 30px;
@@ -1297,6 +1297,12 @@ input:active:focus,
 }
 .restlt-list .lists li .price{
   margin: 20px 0 40px;
+}
+.classify{
+  display: none;
+}
+.search-list{
+  display: none;
 }
 @media (max-width: 1000px){
   .skyblue li>a{
@@ -2127,4 +2133,40 @@ input:active:focus,
   .product-model .img_box img{
     width: 100%;
   }
+  /*设置*/
+  .search-result{
+    margin: 60px 0 0;
+  }
+  .search-result .restlt-list .title{
+    font-size: 14px;
+    padding: 20px 0 0;
+  }
+  .restlt-list .total{
+    font-size: 12px;
+    transform: scale(0.90);
+  }
+  .restlt-list .lists{
+    padding: 20px 20px;
+  }
+  .restlt-list .lists li{
+    width: 47%;
+    margin: 0 5px 10px;
+    background-color: #fff;
+  }
+  .restlt-list .lists li .price{
+    margin: 10px 0 20px;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
