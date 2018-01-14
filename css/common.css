@@ -10,6 +10,18 @@ a{
 .collecPage .top-img{
   display: none;
 }
+#go-top{
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  background-color: #902729;
+  border-radius: 50%;
+  overflow: hidden;
+  display: none;
+  cursor: pointer;
+}
 /*header*/
 .header-top{
   background-color: #fff;
@@ -118,6 +130,7 @@ a{
 .top-header-main div:nth-child(3){
   text-align: right;
 }
+.top-header-main .erweima,
 .top-header-main .collection,
 .top-header-main .advisory{
   width: 40px;
@@ -126,6 +139,19 @@ a{
   background: url(../image/icon/collection.jpg) no-repeat center 13px;
   background-size: 3rem;
   padding-left: 60px;
+}
+.top-header-main .erweima{
+  background: url(../image/icon/erweima1.png) no-repeat center right;
+  background-size: 30px;
+  position: relative;
+}
+.top-header-main .erweima img{
+  width: 130px;
+  position: absolute;
+  bottom: -10rem;
+  left: -15px;
+  z-index: 10;
+  display: none;
 }
 .top-header-main .advisory,
 .header-bottom .top-header-left.phone .advisory{
@@ -264,6 +290,7 @@ a{
   margin-bottom: 15px;
   font-size: 14px;
   font-weight: 600;
+  text-align: center;
 }
 .footer-grids .address p.title{
   font-size: 20px;
@@ -275,6 +302,8 @@ a{
   color: #333333;
   font-size: 14px;
   line-height: 85px;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .footer-bottom img{
   width: 7rem;
@@ -314,7 +343,7 @@ a{
   width: 1100px;
   margin: 0 auto;
   background-color: #fff;
-  margin-top: 152px;
+  margin-top: 146px;
 }
 /*banner*/
 .main_content #slider1{
@@ -330,10 +359,12 @@ a{
   padding: 40px 0;
   font-family: '苹方';
   color: #000;
+  font-weight: 600;
 }
 .main_content .title p:nth-child(2){
   font-size: 30px;
   margin-top: 11px;
+  font-weight: normal;
 }
 #slider2 li {
   display: flex;
@@ -342,16 +373,22 @@ a{
 #slider2 li .items{
   display: inline-block;
   width: 33.333%;
-  box-shadow: 0 4px 8px #ccc;
+  box-shadow: 0 2px 5px #ccc;
   margin: 0 5px;
   font-family: '苹方';
-  font-size: 18px;
   padding: 2rem 0 20px;
   background-color: #fff;
 }
+#slider2 li .items p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
 #slider2 li .items .price{
   text-align: center;
-  /*font-weight: 600;*/
+  font-size: 14px;
+  margin-top: 10px;
 }
 .main_content .slider.goods{
   padding: 0 55px;
@@ -399,7 +436,7 @@ a{
   padding: 38px 0;
   color: #999999;
   font-family: '苹方';
-  font-size: 18px;
+  font-size: 16px;
 }
 .main_content .offers .goods .details p{
   padding: 0 10%;
@@ -408,6 +445,9 @@ a{
   color: #000;
   margin-bottom: 13px;
   font-weight: 600;
+}
+.main_content .goods .details p:nth-child(2){
+  font-size: 14px;
 }
 .main_content .offers-left .goods1 img{
   height: 435px;
@@ -477,7 +517,7 @@ a{
 }
 /*活动页*/
 .product-model{
-  margin-top: 152px;
+  margin-top: 146px;
   background-color: #f7f7f9;
 }
 .product_content.lists{
@@ -633,13 +673,15 @@ a{
   background-color: #fff;
 }
 .main_artical .contact .contact_us > div .title{
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 .main_artical .contact .contact_us > div .details{
   line-height: 20px;
   word-break: break-all;
   color: #999;
+  font-weight: 600;
 }
 .main_artical form{
   width: 80%;
@@ -697,11 +739,15 @@ a{
 .breadcrumb{
   padding: 6px 0;
   color: #666;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .list-items {
   background-color: #e4e4e4;
   margin-bottom: 20px;
   box-shadow: 0 5px 5px #ccc;
+  font-family: '苹方';
+  font-weight: 600;
 }
 .list-items .item-title{
   display: flex;
@@ -841,6 +887,8 @@ a{
   background-color: #fff;
   margin-bottom: 60px;
   /*color: #000;*/
+  font-family: '苹方';
+  font-weight: 600;
 }
 .listsPage .condition .all-title .limit i{
   display: inline-block;

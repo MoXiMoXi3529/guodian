@@ -12,6 +12,10 @@
     $(document).on('click', '.userinfo', function () {
         $('.popover').toggle()
     })
+    // 二维码
+    $('.top-header-left .erweima').hover(function () {
+        $(this).children('img').toggle()
+    })
     // 移动端搜索列表
     $(document).on('click', '.search-list ul li', function () {
         $(this).addClass('active').siblings().removeClass('active')
@@ -48,6 +52,10 @@
         $('.memenu').toggle()
         $(this).toggleClass('active')
     })
+    // 回到顶部
+    $(document).on('click', '#go-top', function () {
+        $("html,body").animate({scrollTop:0}, 500);
+    })
     if(!(navigator.userAgent.match(/(iPhone|iPod|Android|ios|Windows Phone)/i))){
       $(window).scroll(function (event) {
         var Height = $('.header-top').height()
@@ -63,7 +71,9 @@
             $('.skyblue li>a').css({
                 'margin': '0 1rem'
             })
+            $('#go-top').show()
         } else {
+            $('#go-top').hide()
             $('.header-top .top-header-main').show()
             $('.header-bottom .log').hide()
             $('.header-bottom .phone').hide()
