@@ -12,9 +12,23 @@
     $(document).on('click', '.userinfo', function () {
         $('.popover').toggle()
     })
+    // 移动端头部点击显示效果
+    $(document).on('click', '.classify .more', function () {
+        $(this).toggleClass('active').siblings().toggle()
+    })
+    $(document).on('click', '.mobel-header>.search', function () {
+        $(this).toggleClass('active')
+        $('.search-box').toggle()
+        $('.main_shade').toggle()
+    })
+    $(document).on('click', '.search-box span', function () {
+        $(this).parent().hide()
+        $('.main_shade').hide()
+        $('.mobel-header>.search').toggleClass('active')
+    })
     // 二维码
     $('.top-header-left .erweima').hover(function () {
-        $(this).children('img').toggle()
+        $(this).children().toggle()
     })
     // 移动端搜索列表
     $(document).on('click', '.search-list ul li', function () {
@@ -61,7 +75,9 @@
         var Height = $('.header-top').height()
         var top = $(document).scrollTop()
         if (top > Height) {
-            $('.header-top .top-header-main').hide('300')
+            $('.header-top .top-header-main').height('0').css({
+                'opacity': '0'
+            })
             $('.header-bottom .log').show()
             $('.header-bottom .phone').show()
             $('.memenu>li>.mepanel').css({
@@ -74,7 +90,9 @@
             $('#go-top').show()
         } else {
             $('#go-top').hide()
-            $('.header-top .top-header-main').show()
+            $('.header-top .top-header-main').height('100%').css({
+                'opacity': '1'
+            })
             $('.header-bottom .log').hide()
             $('.header-bottom .phone').hide()
             $('.memenu>li>.mepanel').css({
